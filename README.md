@@ -84,15 +84,17 @@ sh ./ts-dart/scripts/train_tsdart.sh
 ```
 
 ## Compiling Document Environment
-Once you have already installed ts-dart in your conda environment.
+Once you have already installed ts-dart in your conda environment. 
 ```bash
 python -m pip install -U sphinx
 pip install sphinx-rtd-theme
 pip install nbconvert nbformat
-pip install pandoc
 pip install sphinx-design
+cd docs
 make html
 ```
+(Warnings can be ignored!)
+You can also visit our [documentation online](https://bojunliu0818.github.io/ts-dart-doc/html/index.html)
 
 ## More instructions 
 
@@ -100,7 +102,7 @@ TS-DART refers to the preprint [10.26434/chemrxiv-2024-r8gjv](https://chemrxiv.o
 
 We already added the example of Muller potential reported in this preprint to the repo. 
 
-To reproduce the results of the other datasets reported in this preprint, please refer to the Methods section or contact bliu293@wisc.edu.
+To reproduce the results of the other datasets reported in this preprint, please refer to [Zenodo](https://zenodo.org/records/13835580), where we have uploaded all of our training results and raw simulation data. Or you can directly contact bliu293@wisc.edu.
 
 ## Reference
 
